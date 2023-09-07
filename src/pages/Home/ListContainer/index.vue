@@ -46,51 +46,51 @@
         <div class="lifeservice">
           <ul>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">favorite</span>
               <p>停車</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">call</span>
               <p>話費</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Payments</span>
               <p>水電</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">mail</span>
               <p>信箱</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">home</span>
               <p>社團</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Tooltip</span>
               <p>八卦</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Feed</span>
               <p>新聞</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Swap_Vert</span>
               <p>股票</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Sunny</span>
               <p>天氣</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Globe</span>
               <p>世界</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">map</span>
               <p>地圖</p>
             </li>
             <li>
-              <i></i>
+              <span class="material-symbols-outlined">Full_Coverage</span>
               <p>國際</p>
             </li>
           </ul>
@@ -170,9 +170,13 @@ export default {
   border-right: 1px solid;
   border-bottom: 1px solid;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .lifeservice ul {
   width: 252px;
+  
 }
 .lifeservice ul li i {
   display: inline-block;

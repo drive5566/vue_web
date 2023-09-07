@@ -2,34 +2,29 @@
     <div class="register-container">
       <div class="register">
         <h3>註冊新用戶
-          <span class="go">我有帳號,去<a href="">登入</a></span>
+          <span class="go">我有帳號,去<router-link to="/login">登入</router-link></span>
         </h3>
         <div class="content">
           <label for="">手機號</label>
           <input type="text" placeholder="請輸入手機號" v-model="phone">
-          <span class="error-msg">錯誤提示訊息</span>
         </div>
         <div class="content ">
           <label for="">驗證碼</label>
           <input type="text" placeholder="請輸入驗證碼" v-model="code">
           <button @click="getCode(phone)">獲取驗證碼</button>
-          <span class="error-msg">錯誤提示訊息</span>
         </div>
         <div class="content">
           <label for="">登錄密碼</label>
           <input type="password" placeholder="請輸入密碼" v-model="password">
-          <span class="error-msg">錯誤提示訊息</span>
         </div>
         <div class="content">
           <label for="">確認密碼</label>
           <input type="password" placeholder="請輸入確認密碼" v-model="checkPassWord">
-          <span class="error-msg">錯誤提示訊息</span>
         </div>
 
         <div class="controls">
           <input type="checkbox" :checked="agree">
           <span>同意協議</span>
-          <span class="error-msg">錯誤</span>
         </div>
 
         <div class="btn">

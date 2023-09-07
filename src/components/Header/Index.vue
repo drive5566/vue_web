@@ -71,7 +71,7 @@
            
 
             <div class="shop">
-                <i>我的購物車</i>
+                <router-link to="/shopCar">我的購物車</router-link>
                 <i class="num">88</i>
             </div>
         </header>
@@ -271,6 +271,7 @@ a{
     width: 80px;
     height: 34px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .hotwrods{

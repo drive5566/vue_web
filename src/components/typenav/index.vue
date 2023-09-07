@@ -242,7 +242,6 @@ nav {
 }
 
 .navitems .navitem-ul li:hover {
-  outline: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 2;
   background-color: rgb(238, 238, 238);
   transition: all 0.2s;
@@ -259,9 +258,6 @@ nav {
   display: none;
 }
 
-.navitems .navitem-ul li:hover ul {
-  display: block;
-}
 
 .item {
   padding: 5px;

@@ -32,7 +32,17 @@ let router = new VueRouter({
     }
 })
 router.beforeEach((to,from,next)=>{
-next()
-console.log(store);
+    let token = store.state.user.token
+if(token){
+    store.dispatch('userInfo')
+    if(to.path == ('/Login')){
+        next('/home')
+    }else{
+            next()
+        }
+}else{
+    next()  
+}
+
 })
 export default router

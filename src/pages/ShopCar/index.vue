@@ -40,7 +40,7 @@
                         <i class="summoney">{{ totalPrice }}</i>
                     </div>
                     <div class="sumbtn">
-                        <a href="" class="sum-btn">結算</a>
+                        <a  class="sum-btn">結算</a>
                     </div>
                 </div>
             </div>

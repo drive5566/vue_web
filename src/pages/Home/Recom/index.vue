@@ -11,7 +11,7 @@
                         <p class="skyblue">滿500送200</p>                   
                 </div>
                 <div class="recom-img">
-                    <img src="" alt="商品">
+                    <img src="./img/aifa-i-Ctrl-Pro-17.jpg" alt="商品">
                 </div>
             </li>
             <li class="recom-item">
@@ -20,7 +20,7 @@
                         <p class="green">滿500送200</p>                   
                 </div>
                 <div class="recom-img">
-                    <img src="" alt="商品">
+                    <img src="./img/aifa-i-Ctrl-Pro-17.jpg" alt="商品">
                 </div>
             </li>
             <li class="recom-item">
@@ -29,7 +29,7 @@
                         <p class="red">滿500送200</p>                   
                 </div>
                 <div class="recom-img">
-                    <img src="" alt="商品">
+                    <img src="./img/aifa-i-Ctrl-Pro-17.jpg" alt="商品">
                 </div>
             </li>
             <li class="recom-item">
@@ -38,7 +38,7 @@
                         <p class="blue">滿500送200</p>                   
                 </div>
                 <div class="recom-img">
-                    <img src="" alt="商品">
+                    <img src="./img/aifa-i-Ctrl-Pro-17.jpg" alt="商品">
                 </div>
             </li>
 
@@ -54,7 +54,7 @@ name:'MyRecom'
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .w{
    max-width: 1200px; 
 }
@@ -103,5 +103,12 @@ name:'MyRecom'
 }
 .blue{
     background-color: blue;
+}
+
+.recom-img{
+    width: 100px;
+    img{
+        width: 100%;
+    }
 }
 </style>
